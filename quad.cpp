@@ -36,7 +36,7 @@ Quad::Quad(void)
     "   frag_color = texture(TextureSampler, frag_uv); \n"
     "}\n";
     
-    GLfloat vertices[2*2*4] =
+    GLfloat vertices[(2+2)*4] =
     {
         -1.0f, -1.0f,
         0.0f, 0.0f,

@@ -128,7 +128,7 @@ int main(int argc, char * argv[])
         glBindFramebuffer(GL_FRAMEBUFFER, 0);
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-        //tbars->Draw(width, height);
+        tbars->Draw(width, height);
         glViewport(0, 0, width, height );
         float aspect = (float)width/height;
         glm::mat4 Mproj;
